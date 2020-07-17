@@ -64,5 +64,6 @@ def runner
     else 
       end_game(card_total)
     end
+  end 
 end
     
