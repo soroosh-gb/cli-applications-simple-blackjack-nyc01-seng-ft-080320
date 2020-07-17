@@ -63,6 +63,5 @@ def runner
     else 
       end_game(hit?(in_hand))
     end
-  end 
 end
     
