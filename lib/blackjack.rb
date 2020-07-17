@@ -57,6 +57,6 @@ def runner
   welcome()
   total = initial_round()
   display_card_total(total)
-  
+end_game(total)
 end
     
