@@ -57,6 +57,8 @@ def runner
   welcome()
   total = initial_round()
   display_card_total(total)
+  unti total > 21
+  
 end_game(total)
 end
     
