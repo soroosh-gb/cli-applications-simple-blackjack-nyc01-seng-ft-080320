@@ -57,11 +57,11 @@ def runner
   puts welcome()
   initial_round()
   in_hand = display_card_total(initial_round)
-  hit?(in_hand)
-    if hit?(in_hand) < 21
-      hit?(in_hand)
-    else 
-      end_game(hit?(in_hand))
-    end
+  # hit?(in_hand)
+  #   if hit?(in_hand) < 21
+  #     hit?(in_hand)
+  #   else 
+  #     end_game(hit?(in_hand))
+  #   end
 end
     
