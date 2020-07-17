@@ -55,6 +55,7 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome()
+  hit?()
 end
     
