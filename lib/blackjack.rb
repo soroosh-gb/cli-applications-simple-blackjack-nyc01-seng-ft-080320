@@ -62,7 +62,7 @@ def runner
     if hit?(in_hand) < 21
       in_hand = hit?(in_hand)
     else 
-      end_game(card_total)
+      end_game()
     end
   end 
 end
