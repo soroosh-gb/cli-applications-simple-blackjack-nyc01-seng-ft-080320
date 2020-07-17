@@ -56,6 +56,7 @@ end
 def runner
   puts welcome()
   initial_round()
+  display_card_total(initial_round)
   total = 0 
   while total > 21 do
     hit?(number)
