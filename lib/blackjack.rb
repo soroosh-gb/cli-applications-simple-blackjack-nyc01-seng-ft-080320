@@ -44,7 +44,6 @@ def hit?(number)
   end 
   return total
 end
-# binding.pry
 def invalid_command()
   puts "Please enter a valid command"
   
@@ -57,7 +56,9 @@ end
 def runner
   welcome()
   initial_round()
-  hit?(number)
+  total = 0 
+  while total > 21 do
+    hit?(number)
     if hit?(number) > 21
       end_game(card_total)
     end
