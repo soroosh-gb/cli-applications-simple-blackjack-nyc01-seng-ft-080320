@@ -54,7 +54,7 @@ end
 #####################################################
 
 def runner
-  welcome()
+  puts welcome()
   initial_round()
   total = 0 
   while total > 21 do
